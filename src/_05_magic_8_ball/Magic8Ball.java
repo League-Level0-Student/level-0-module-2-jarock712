@@ -9,21 +9,14 @@ public static void main(String[] args) {
 	if (randomNumber == 0) {
 		JOptionPane.showMessageDialog(null, "Yes");
 	}
+	if (randomNumber == 1) {
+		JOptionPane.showMessageDialog(null, "No");
+	}
+	if (randomNumber == 2) {
+		JOptionPane.showMessageDialog(null, "Maybe ask Google?");
+	}
+	if (randomNumber == 3) {
+		JOptionPane.showMessageDialog(null, "Interesting");
+	}
 }
-	// 5. If the random number is 0
-
-	// -- tell the user "Yes"
-
-	// 6. If the random number is 1
-
-	// -- tell the user "No"
-
-	// 7. If the random number is 2
-
-	// -- tell the user "Maybe you should ask Google?"
-
-	// 8. If the random number is 3
-
-	// -- write your own answer
-
 }
